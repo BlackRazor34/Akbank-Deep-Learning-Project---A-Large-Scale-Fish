@@ -1,23 +1,24 @@
 # Akbank-Deep-Learning-Project  : "A-Large-Scale-Fish-Dataset"
 
-# Kaggle : https://www.kaggle.com/code/emreenginn/globalalhub-bootcamp-a-large-scalefish-ann-project
+
 
 # Balık Türlerinin Yapay Sinir Ağları ile Sınıflandırılması
 
 ## 📌 Proje Hakkında
-Bu projede 9 farklı deniz ürünü türünü sınıflandıran bir yapay sinir ağı (ANN) modeli geliştirilmiştir.
+- Bu projede 9 farklı deniz balığını sınıflandıran derin öğrenme modeli oluşturulmuştur.
+- Veri analizi, Model geliştirme ve Değerlendirme teknikleri kullanılarak ANN mimarisi geliştirilmiştir.
 
 ## 🐟 Veri Seti
 Veri setinde bulunan türler:
-- Çipura
-- Kırmızı Mercan
-- Levrek
-- Barbun
-- İstavrit
-- Hamsi
-- Tekir
-- Alabalık
-- Karides
+- Gilt Head Bream
+- Red Sea Bream
+- Sea Bass
+- Red Mullet
+- Horse Mackerel
+- Black Sea Sprat
+- Striped Red Mullet
+- Trout
+- Shrimp
 
 ## 💻 Kullanılan Teknolojiler
 - Python
@@ -40,3 +41,5 @@ Bu çalışmada kullanılan veri seti:
 
 ---
 Geliştirici: [Emre ENGİN]
+
+## Kaggle : https://www.kaggle.com/code/emreenginn/globalalhub-bootcamp-a-large-scalefish-ann-project
