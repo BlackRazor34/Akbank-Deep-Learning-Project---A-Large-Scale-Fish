@@ -21,7 +21,7 @@ Bu projede derin öğrenme kullanılarak balık türlerini otomatik olarak sın�
 Ardışık (Sequential) bir model kullanılarak şu katmanlar oluşturuldu:
 1. **Giriş Katmanı**: Flatten (128x128x3 giriş)
 2. **Gizli Katmanlar**:
-   - Dense (512 nöron) + BatchNormalization + Dropout(0.2)
+   - Dense (256 nöron) + BatchNormalization + Dropout(0.2)
    - Dense (256 nöron) + BatchNormalization + Dropout(0.2)
    - Dense (128 nöron) + BatchNormalization + Dropout(0.2)
 3. **Çıkış Katmanı**: Dense (sınıf sayısı) + Softmax aktivasyonu
@@ -30,7 +30,7 @@ Ardışık (Sequential) bir model kullanılarak şu katmanlar oluşturuldu:
 - **Optimizer**: Adam
 - **Loss Function**: Categorical Crossentropy
 - **Metrics**: Accuracy
-- **Epoch Sayısı**: 20
+- **Epoch Sayısı**: 50
 - **Batch Size**: 32
 
 ## Optimizasyon Teknikleri
@@ -50,9 +50,6 @@ ImageDataGenerator kullanılarak:
 - Preprocessing function uygulandı (VGG16 preprocess_input)
 - Batch bazlı veri akışı sağlandı
 
-## Performans Metrikleri
-- Test Loss: [5.4818]
-- Test Accuracy: [0.9411]
 
 ## Kullanılan Teknolojiler
 - TensorFlow/Keras
@@ -73,7 +70,7 @@ ImageDataGenerator kullanılarak:
 Proje, derin öğrenme teknikleri kullanılarak balık türlerinin otomatik sınıflandırılması konusunda başarılı bir çözüm sunmaktadır. Model, test setinde tatmin edici bir performans göstermiştir ve gerçek dünya uygulamalarında kullanılabilir durumdadır.
 
 ## 🎯 Model Performansı
-- Test Doğruluk Oranı: [Accuracy Score: 0.9472222222222222]
+- Test Doğruluk Oranı: [Accuracy Score: 0.9777777777777777]
 
 Örnek Tahminler:
 
